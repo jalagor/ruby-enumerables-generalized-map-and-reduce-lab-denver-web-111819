@@ -1,3 +1,5 @@
-map([1, 2, 3, -9]){|n| n * n}
+def map(source_array) 
+  counter = 0 
+  
   
   
