@@ -9,6 +9,9 @@ answers
 end
     
   
-def reduce(source_array) 
+def reduce(source_array, starting_point = nil) 
   counter = 0 
-  total = 0 
+  if starting_point
+  total = starting_point 
+  while counter < source_array.length 
+  
