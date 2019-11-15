@@ -9,4 +9,6 @@ answers
 end
     
   
-  
+def reduce(source_array) 
+  counter = 0 
+  total = 0 
